@@ -1,0 +1,83 @@
+
+.vertical-menu a {
+    background-color: #99ff99;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #e6ffe6;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+/* Create two equal columns that floats next to each other */
+
+body {
+  background: #b3ffb3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #b3ffb3, #b3ffb3);
+  background: -moz-linear-gradient(right, #b3ffb3, #b3ffb3);
+  background: -o-linear-gradient(right, #b3ffb3, #b3ffb3);
+  background: linear-gradient(to left, #b3ffb3, #b3ffb3);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+body {
+ margin: 0 auto }
+
+div.vertical-menu {
+width: 15%; 
+padding: 1% 0 0 2%;
+float: left;
+height: 525px;}
+
+div.main-container {
+width: 85%;
+padding: 0 1%;
+float: left}
+
+div.right {
+width: 80%; 
+padding: 0 5% 0 0;
+float: left}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #00ff00;
+    clear: left;
+    text-align: center;
+}
+
+.profile{
+    padding: 1em;
+    color: white;
+    background-color: #00ff00;
+    clear: left;
+    text-align: center;
+}
+
+.form .error {
+  margin: 0px;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+div .error p {
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+}
+div.main {
+    width: 100%;
+    border: 1px solid gray;
+}
+div.gpdf {
+    
+    float: right;
+}
